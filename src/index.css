@@ -1,3 +1,6 @@
+section {
+  scroll-margin-top: 120px;
+}
 * {
   box-sizing: border-box;
 }
@@ -248,13 +251,13 @@ letter-spacing:0.5px;
   transform: translateX(4px);
   color: #4f46e5;
 }
-
 .about-box {
   background: white;
   border: 1px solid #e2e8f0;
   border-radius: 24px;
   padding: 28px;
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04);
+  max-width: 980px;
 }
 
 .about-text {
