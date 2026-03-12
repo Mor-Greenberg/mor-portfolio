@@ -97,21 +97,37 @@ function App() {
   return (
     <div className="page" id="top">
         <div className="container">
-      <nav className="navbar">
-        <div className="logo">Mor Greenberg</div>
-        <div className="nav-links">
-          <a href="#projects">Projects</a>
-          <a href="#stack">Stack</a>
+<nav className="navbar">
+  <a href="#top" className="logo">Mor Greenberg</a>
 
-          <a href="https://github.com/Mor-Greenberg" target="_blank">GitHub</a>
-          <a href="https://www.linkedin.com/in/mor-greenberg-a20741243/" target="_blank">LinkedIn</a>
+  <div className="nav-links">
+    <a href="#projects">Projects</a>
+    <a href="#stack">Stack</a>
 
-          <button className="primary-btn" onClick={() => setShowContact(true)}>
-            Contact
-          </button>
-        </div>
-      </nav>
-        <section className="hero">
+    <a
+      href="https://github.com/Mor-Greenberg"
+      target="_blank"
+      rel="noreferrer"
+    >
+      GitHub
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/mor-greenberg-a20741243/"
+      target="_blank"
+      rel="noreferrer"
+    >
+      LinkedIn
+    </a>
+
+    <button
+      className="primary-btn"
+      onClick={() => setShowContact(true)}
+    >
+      Contact
+    </button>
+  </div>
+</nav>       <section className="hero">
           <div className="hero-text">
             <p className="hero-tag">
                 Computer Science Student • Open to Junior Software, Data & AI roles
