@@ -97,36 +97,22 @@ function App() {
   return (
     <div className="page">
       <div className="container">
-        <nav className="navbar">
-          <div className="logo">Mor Greenberg</div>
+      <nav className="navbar">
+        <div className="logo">Mor Greenberg</div>
+
+        <div className="nav-links">
           <a href="#projects">Projects</a>
           <a href="#stack">Stack</a>
           <a href="#about">About</a>
 
-          <div className="nav-links">
-            <a
-              href="https://github.com/Mor-Greenberg"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/in/mor-greenberg-a20741243/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
-            </a>
-              <button
-                className="primary-btn"
-                onClick={() => setShowContact(true)}
-              >
-                Contact
-              </button>
-          </div>
-        </nav>
+          <a href="https://github.com/Mor-Greenberg" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/mor-greenberg-a20741243/" target="_blank">LinkedIn</a>
 
+          <button className="primary-btn" onClick={() => setShowContact(true)}>
+            Contact
+          </button>
+        </div>
+      </nav>
         <section className="hero">
           <div className="hero-text">
             <p className="hero-tag">
@@ -143,8 +129,8 @@ function App() {
             </p>
 
             <p className="hero-description">
-              I build software projects that combine algorithms,
-              machine learning, and clean system design.
+            I build software projects combining algorithms,
+            machine learning, and clean system design.
             </p>
 
             <div className="hero-buttons">
